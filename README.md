@@ -29,6 +29,6 @@ pip install -r requirements.txt
 
 ## Using
 ```
-- source .env/bin/activate
-- python3 <script-name>
+source .env/bin/activate
+python3 <script-name>
 ```
