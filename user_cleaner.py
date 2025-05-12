@@ -187,6 +187,11 @@ def API_Request(json_payload):
     except requests.exceptions.RequestException as err:
         print ("OOps: Something Else",err)
         raise SystemExit(err)
+
+    json_data=json.loads(req.text)
+    if json_data['code']> 0:
+        print(f"Error code: {json_data['code']}, Error message: {json_data['message']}")
+        exit()
     return req.text
 
 if __name__ == "__main__":
