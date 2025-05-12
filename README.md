@@ -7,6 +7,7 @@ Python scripts for [iTop][0] API by [Combodo][1].
 - Sync Profiles and Organisations from UserLDAP to UserExternal (SAML)
 - Find users with status "Disabled" and set status to "Enabled" if they are found in the iTopUserLDAPCollector-1.csv file
 - Set default Organization and Profile to Disabled UserLDAP and UserExternal users
+- Set UserLocal Password expiration attribut to "Expired" after x days of "Password renewed on"
 
 ## Prerequisites
 - iTop 3.x>
